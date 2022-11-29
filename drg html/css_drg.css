@@ -1,0 +1,208 @@
+@font-face {
+	font-family:rift;
+	src: url("Fort Foundry - Rift-Regular.otf");
+}
+
+@font-face {
+    font-family:whirab;
+    src: url("whitrabt.otf");
+}
+
+body{
+    background-color: #212121;
+    margin:0;
+    font-family: rift;
+    font-size: 20px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: rift;
+    background-color: #1A1A1A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+header li{
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+.logo{
+    padding-top: 20px;
+    max-width: 200px;
+    height: auto;
+    width: 100%;
+}
+
+.section{
+    min-width: 66%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1
+}
+
+.section a:link{
+    color:rgba(186,186,186,.7);
+}
+
+.section a:visited{
+    color:rgba(186,186,186,.7);
+}
+
+.section a:hover{
+    color:#ff9d00
+}
+
+.shops{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-content{
+    background-image: url("DRG_Planet02.jpg");
+    background-size: cover;
+    padding:136px 34px;
+    overflow: hidden;    
+}
+
+.welcome-content img{
+    float: right;
+    max-width: 50%;
+    padding: 0px 5px;
+}
+
+.main-wrapper{
+    position: relative;
+    top:170px;
+    color: #999;
+    font-weight: bold;
+    
+}
+
+.text{
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+}
+
+.the-job{
+    padding:136px 34px;
+    overflow: hidden; 
+}
+
+.section-title{
+    color: #ff9d00;
+    min-width: 60%;
+
+}
+
+.job-section{
+    display: block;
+    padding-bottom: 80px;
+}
+
+.job-section h1{
+    color: #fff;
+}
+
+.job-section img{
+    float: left;
+    max-width: 50%;
+    padding-right: 15px;
+}
+
+.job-section hr{
+    size: 2;
+}
+
+.float-right img{
+    float: right;
+}
+
+.level img{
+    max-width: 30%;
+}
+
+.the-company{
+    display: block;
+    padding:136px 34px 200px;
+    background-image: url("DRG_Planet03.jpg");
+    background-size: cover;
+    overflow: hidden;    
+}
+
+.the-company img{
+    float: right;
+    max-width: 90%;
+    padding-right: 15px;
+}
+
+.the-company h2{
+    color: #fff;
+}
+
+.slip img{
+    max-width: 50%;
+    }
+
+.bandeau{
+    color: #fff;
+    position: relative;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.bandeau img{
+    padding: 20px 0px 30px;
+    display: flex;
+}
+
+.social{
+    background-color: #171717;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.social button{
+    transition-duration: 0.45s;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #FFD480;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.social button:hover{
+    color: black;
+    background-color: #fff;
+    }
+
+.social button:hover svg{
+    fill: #171717
+};
