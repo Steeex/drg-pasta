@@ -1,11 +1,11 @@
 @font-face {
 	font-family:rift;
-	src: url("Fort Foundry - Rift-Regular.otf");
+	src: url("fonts/Fort Foundry - Rift-Regular.otf");
 }
 
 @font-face {
     font-family:whirab;
-    src: url("whitrabt.otf");
+    src: url("fonts/whitrabt.otf");
 }
 
 body{
